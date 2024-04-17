@@ -2,7 +2,14 @@ import unittest
 from contracting.client import ContractingClient
 import random
 import string
+import os
+import sys
 
+# Get the directory where the script is located
+script_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
+
+# Change the current working directory
+os.chdir(script_dir)
 
 class MyTestCase(unittest.TestCase):
 
