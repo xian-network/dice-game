@@ -26,7 +26,7 @@ def roll(bet_size: float, token_contract: str, roll_type: str, roll_target: int)
     if roll_type == 'over':
         assert 1 <= roll_target < 100, 'Roll target must be between 1 and 99 for over rolls'
     else:
-        assert 2 < roll_target <= 100, 'Roll target must be between 2 and 100 for under rolls'
+        assert 2 <= roll_target <= 100, 'Roll target must be between 2 and 100 for under rolls'
 
     token = importlib.import_module(token_contract)
     token.transfer_from(amount=bet_size, to=ctx.this, main_account=ctx.caller)
