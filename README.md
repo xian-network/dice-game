@@ -25,7 +25,7 @@ Follow these steps to set up the environment on Ubuntu 22.04:
 3. **Clone Contracting:**
 
    ```bash
-   git clone https://github.com/xian-network/contracting.git
+   git clone https://github.com/xian-network/xian-contracting
    git clone https://github.com/xian-network/dice-game.git
    ```
 
@@ -34,7 +34,7 @@ Follow these steps to set up the environment on Ubuntu 22.04:
    ```bash
    python3.11 -m venv xian_venv
    source xian_venv/bin/activate
-   pip install -e contracting/
+   pip install -e xian-contracting/
    ```
 
 5. **Run the tests**
