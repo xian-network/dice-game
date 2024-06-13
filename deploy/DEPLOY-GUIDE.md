@@ -16,7 +16,7 @@
 
 3. From the terminal :
     ```bash
-    > python3 deploy.py
+    > python3 deploy/deploy.py
     ```
 
 4. Interact with your contract on the Xian Testnet using the Xian wallet of your choice.
