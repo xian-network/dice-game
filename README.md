@@ -14,5 +14,5 @@ This sandbox contains example contracts and tests demonstrating how to build a s
 ### Run tests :
 
 - From the terminal : 
-   - `pytest tests/test_dice.py`
+   - `pytest`
 
