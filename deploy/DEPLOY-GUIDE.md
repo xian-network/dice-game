@@ -20,4 +20,3 @@
     ```
 
 4. Interact with your contract on the Xian Testnet using the Xian wallet of your choice.
-
