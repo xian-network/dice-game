@@ -9,7 +9,7 @@ with open('./contracts/con_uberdice.py', 'r') as file:
 contract_name = 'con_my_cool_contract'
 
 wallet = Wallet(
-    '<wallet_address>')
+    '<wallet_private_key>')
 xian = Xian('https://testnet.xian.org', wallet=wallet)
 
 # Constructor arguments // do not include in `submit_contract` if the seed() function has no arguments in your contract.
