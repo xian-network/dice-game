@@ -1,8 +1,12 @@
 
-# Example Contract : Dice Game
+# Uber Dice
 
-This sandbox contains example contracts and tests demonstrating how to build a simple dice game & tests using xian-contracting.
-
+Example Xian Smart Contract based Dice game with random functions and house edge. Range based dice with multiplier winnings based on range.
+### This example demonstrates :
+- How to use the random module to generate random numbers.
+- How to import token contracts & use them within the context of a betting contract.
+- How to configure a test harness.
+- How to prove the functionality within the contract works as expected.
 ## Instructions
 
 ### Access the terminal
@@ -13,6 +17,8 @@ This sandbox contains example contracts and tests demonstrating how to build a s
 
 ### Run tests :
 
-- From the terminal : 
-   - `pytest`
+**From the terminal :**
+   ```bash
+   >   pytest
+   ```
 
