@@ -1,7 +1,7 @@
 from xian_py.wallet import Wallet
 from xian_py.xian import Xian
 
-# Assuming the contract code is in a file named 'contract_code.py' in the same directory
+
 with open('./contracts/con_uberdice.py', 'r') as file:
     code = file.read()
 
