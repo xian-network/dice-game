@@ -22,3 +22,5 @@ Example Xian Smart Contract based Dice game with random functions and house edge
    >   pytest
    ```
 
+### Deploy Contract to Testnet
+- [Deploy Guide](./deploy/DEPLOY-GUIDE.md)
